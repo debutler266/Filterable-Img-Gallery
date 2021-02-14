@@ -10,4 +10,7 @@ $(document).ready(function(){
     }
   })
   // active class for selected item
+  $('.list').click(function(){
+    $(this).addClass('active').siblings().removeClass('active');
+  })
 })
